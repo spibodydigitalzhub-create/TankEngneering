@@ -196,3 +196,21 @@ section { padding: 100px 0; }
     .hero-buttons { flex-direction: column; gap: 15px; }
     .footer-grid { grid-template-columns: 1fr; }    .section-title { font-size: 2rem; }
 }
+.service-image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-image img {
+    transform: scale(1.05);
+        }
