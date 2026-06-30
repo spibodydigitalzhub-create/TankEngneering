@@ -283,3 +283,40 @@ section { padding: 100px 0; }
         min-height: 350px;
     }
     }
+
+/* ===== FORCE CONTACT LAYOUT FIX ===== */
+.contact-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important; /* Forces 50/50 split */
+    gap: 40px;
+    align-items: stretch;
+    width: 100%;
+}
+
+.map-container {
+    width: 100% !important;
+    min-height: 500px !important; /* Forces the map to be tall */
+    border-radius: 8px;
+    overflow: hidden;
+    background: #1A1D22;
+}
+
+.map-container iframe {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 500px;
+    border: none;
+}
+
+/* Make sure it stacks on mobile */
+@media (max-width: 992px) {
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+    }
+    .map-container {
+        min-height: 350px !important;
+    }
+    .map-container iframe {
+        min-height: 350px;
+    }
+}
