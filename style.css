@@ -465,3 +465,12 @@ section { padding: 100px 0; }
     color: var(--white);
     margin: 0;
         }
+/* Update contact grid for 2 locations */
+@media (max-width: 992px) {
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+    }
+    .contact-section > div > div:last-child {
+        grid-template-columns: 1fr !important;
+    }
+    }
