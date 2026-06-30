@@ -203,14 +203,25 @@
             </div>
             
             <div class="contact-grid">
-                <!-- Contact Info Cards -->
+                
+    <!-- Contact Section with Map -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact <span style="color: var(--secondary-color);">Information</span></h2>
+                <div class="divider"></div>
+                <p>Global terminals - Local expertise</p>
+            </div>
+            
+            <div class="contact-grid">
                 <div class="contact-info">
+                    <h3 style="color: var(--primary-color); margin-bottom: 20px; text-align: center;">USA Terminal</h3>
+                    
                     <div class="info-card">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h4>USA Terminal</h4>
-                            <p>Bayport Industrial Complex<br>11666 Port Road Seabrook<br>Texas 77586 USA</p>
-                            <p style="margin-top: 10px; color: var(--accent-orange); font-weight: 600;">Port: 9278</p>
+                            <h4>Address</h4>
+                            <p>Bayport Industrial Complex<br>11666 Port Road Seabrook<br>Texas 77586 USA<br><span style="color: var(--secondary-color); font-weight: 600;">Port: 9278</span></p>
                         </div>
                     </div>
                     
@@ -218,7 +229,7 @@
                         <i class="fas fa-phone-alt"></i>
                         <div>
                             <h4>Telephone / WhatsApp</h4>
-                            <p><a href="tel:+12813356039" style="color: var(--text-light);">+1 (281) 335-6039</a></p>
+                            <p><a href="tel:+12813356039">+1 (281) 335-6039</a></p>
                         </div>
                     </div>
                     
@@ -226,30 +237,77 @@
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email Address</h4>
-                            <p><a href="mailto:houston.port@maxwellstoragetanks.com" style="color: var(--text-light);">houston.port@maxwellstoragetanks.com</a></p>
-                        </div>
-                    </div>
-                    
-                    <div class="info-card">
-                        <i class="fas fa-map-marked-alt"></i>
-                        <div>
-                            <h4>GPS Coordinates</h4>
-                            <p>Latitude: 29.6169112<br>Longitude: -95.0371099</p>
+                            <p><a href="mailto:houston.port@maxwellstoragetanks.com">houston.port@maxwellstoragetanks.com</a></p>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Google Map -->
+                <div class="contact-info">
+                    <h3 style="color: var(--primary-color); margin-bottom: 20px; text-align: center;">Rotterdam Terminal</h3>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Rotterdam Storage Terminal<br>Maasvlakte 2<br>3199 LE Rotterdam<br>Netherlands</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Telephone / WhatsApp</h4>
+                            <p><a href="tel:+3197010279787">+31 970 102 79787</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p><a href="mailto:rotterdam.port@maxwellstoragetanks.com">rotterdam.port@maxwellstoragetanks.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- General Contact Info -->
+            <div style="margin-top: 50px; text-align: center; padding: 30px; background: var(--white); border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+                <h3 style="color: var(--primary-color); margin-bottom: 15px;">General Inquiries</h3>
+                <p style="color: var(--gray); font-size: 1.1rem;">
+                    <i class="fas fa-envelope" style="color: var(--secondary-color); margin-right: 10px;"></i>
+                    <a href="mailto:info@maxwellstoragetanks.com" style="color: var(--primary-color); font-weight: 600;">info@maxwellstoragetanks.com</a>
+                </p>
+            </div>
+            
+            <!-- Maps -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 40px;">
                 <div class="map-container">
+                    <h4 style="text-align: center; padding: 15px; background: var(--primary-color); color: var(--white); margin: 0;">USA Location</h4>
                     <iframe 
                         src="https://maps.google.com/maps?q=29.6169112,-95.0371099&z=15&output=embed" 
                         width="100%" 
-                        height="100%" 
+                        height="400" 
                         style="border:0;" 
                         allowfullscreen="" 
                         loading="lazy">
                     </iframe>
                 </div>
+                
+                <div class="map-container">
+                    <h4 style="text-align: center; padding: 15px; background: var(--primary-color); color: var(--white); margin: 0;">Rotterdam Location</h4>
+                    <iframe 
+                        src="https://maps.google.com/maps?q=51.9244,4.4777&z=15&output=embed" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+                                                                                   </section>
             </div>
         </div>
     </section>
@@ -280,12 +338,13 @@
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>Contact Info</h4>
-                <ul class="contact-list">
-                    <li><i class="fas fa-map-marker-alt"></i> Bayport, Texas USA</li>
-                    <li><i class="fas fa-envelope"></i> houston.port@maxwellstoragetanks.com</li>
-                    <li><i class="fas fa-phone"></i> +1 (281) 335-6039</li>
-                </ul>
+    <h3>Contact Info</h3>
+    <ul class="contact-list">
+        <li><i class="fas fa-map-marker-alt"></i> USA: Texas | Netherlands: Rotterdam</li>
+        <li><i class="fas fa-envelope"></i> info@maxwellstoragetanks.com</li>
+        <li><i class="fas fa-phone"></i> USA: +1 (281) 335-6039</li>
+        <li><i class="fas fa-phone"></i> Rotterdam: +31 970 102 79787</li>
+    </ul>
             </div>
         </div>
         <div class="footer-bottom">
